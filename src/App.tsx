@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Calculatrice from './components/calculatrice';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="container" >
+  
+<Calculatrice/>
 
-     
     </div>
   );
 }
 
 export default App;
+
